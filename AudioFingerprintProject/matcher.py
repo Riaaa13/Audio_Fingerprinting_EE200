@@ -20,10 +20,9 @@ def identify_song(query_song):
         query_song
     )
 
-    with open(
-        "single_peak_database.pkl",
-        "rb"
-    ) as f:
+    from pathlib import Path
+    db_path = Path(__file__).parent / "single_peak_database.pkl"
+    with open(db_path, "rb") as f:
 
         database = pickle.load(f)
 
