@@ -1,6 +1,13 @@
+
 print("MATCHER VERSION WITH OFFSETS LOADED")
 import pickle
 from collections import Counter
+import os
+from pathlib import Path
+
+print("Current Working Directory:", os.getcwd())
+print("Matcher File Location:", Path(__file__).resolve())
+print("Files in current directory:", os.listdir())
 
 from single_peak_fingerprint import (
     generate_single_peaks
