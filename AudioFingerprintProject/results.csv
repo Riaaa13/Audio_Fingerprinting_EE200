@@ -1,0 +1,13 @@
+Query File,Matched Song,Match Score
+test_queries/noisy_0.1.wav,Blackbird.mp3,273
+test_queries\noisy_0.01.wav,Blackbird.mp3,12820
+test_queries/noisy_0.2.wav,Blackbird.mp3,120
+test_queries\noisy_0.3.wav,Blackbird.mp3,54
+test_queries/noisy_0.05.wav,Blackbird.mp3,702
+test_queries/pitch_1.wav,Blackbird.mp3,25
+test_queries/pitch_2.wav,Within You Without You.mp3,7
+test_queries/pitch_3.wav,I Want To Hold Your Hand.mp3,5
+test_queries/stretch_0.95.wav,Blackbird.mp3,18
+test_queries/stretch_1.05.wav,Blackbird.mp3,15
+test_queries/stretch_1.1.wav,Blackbird.mp3,15
+songs/Day Tripper.mp3,Day Tripper.mp3,39855
